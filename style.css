@@ -1,0 +1,14 @@
+#fundo{
+    text-align: center;
+    background-color: blue;
+    font-family: Comic Sans MS;
+}
+
+h1, h3{
+  color: rgb(1, 1, 5);
+}
+
+button{
+    background-color: cornflowerblue;
+    padding: 10px;
+}
