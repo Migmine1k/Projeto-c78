@@ -6,13 +6,13 @@ var i = 0;
 
 function proxima() {
     i++;
-    var numeroFamilia = fotos.length = 4;
+    var numeroFamilia = fotos.length - 1;
     if (i > numeroFamilia){
         i=0;
     }
-    var updateImage = fotos[1];
+    var updateImage = fotos[i];
     var updateFrases = frases[i];
     
     document.getElementById("fotos").src=updateImage;
-    document.getElementById("Legenda").innerHTML=updateFrases;
+    document.getElementById("legenda").innerHTML=updateFrases;
 }
